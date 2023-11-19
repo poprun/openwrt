@@ -7,6 +7,4 @@ jobs:
     - uses: actions/checkout@v3
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
-      with:
-        limit-access-to-actor: true
-        github-token: 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
+      timeout-minutes: 15
